@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonte estilizada -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Fonte textos longos -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    
+    <title> Gaia Ramos - Portfólio</title>    
+    <!-- Icone da aba do navegador em PNG -->
+    <link rel="icon" href="imagens/GaiaIcone.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Menu -->
+  <nav>
+    <div class="container-nav">
+      <div class="nav-left">
+        <div class="logo">
+          <img src="imagens/GaiaPequeno.png" alt="Logo Lavanda Glitch">
+        </div>
+      </div>
+
+      <!-- Botão hambúrguer -->
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+
+      <ul class="menu-links" id="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- Cabeçalho modo capa -->
+<header class="home" id="home">
+    <div class="capa">
+        <h1>Gaia Latshvia Ramos</h1>
+        <p>•Estudante de Tecnologia e Design•</p>
+    </div>  
+</header>
+
+<!-- Seção Sobre -->
+<section id="sobre">
+    <div class="sobre-container">
+      <div class="sobre-img">
+        <img src="imagens/GaiaPequeno.png" alt="Lavanda Glitch">
+      </div>
+      <div class="sobre-texto">
+        <h2>Sobre Mim</h2>
+        <p>Sou Gaia, estudante de tecnologia apaixonada por desenvolvimento e design digital. Trabalho com aplicações em VB.Net e C#, e tenho conhecimentos básicos em HTML e Python.</p>
+        <p>Tenho uma queda por estéticas cyberpunk e futuristas, que costumam aparecer como influência nos meus projetos pessoais — sempre com um toque visual único.</p>
+        <p>Gosto de unir minhas duas paixões: design e programação.</p>
+        <p>Este é o primeiro site que consigo finalizar completamente, e estou animada por compartilhar isso!</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Seção Projetos -->
+  <section id="projetos">
+    <div class="container">
+      <h2>Inspirações para Projetos</h2>
+      <p class="subtitulo">Explore alguns dos sites que quero me inspirar para criar futuramente.</p>
+      
+      <div class="grid-projetos">
+        <!-- Projeto 1 -->
+        <div class="projeto">
+          <img src="/imagens/TelaWaves.png" alt="Projeto 1" class="img-projeto">
+          <div class="descricao">
+            <h3>Site de jogo</h3>
+            <a href="https://wutheringwaves.kurogames.com/en" target="_blank">Acessar site</a>
+            <p>Landing page com intuito de divulgar o jogo. Design responsivo e cheio de animações modernas.
+            </p>
+            <p>Ótima estética, amostragem, porém devido as animações o site é extremamente pesado.
+            </p>            
+          </div>
+        </div>
+  
+        <!-- Projeto 2 -->
+        <div class="projeto">
+          <img src="/imagens/SiteArtWorks.png" alt="Projeto 2" class="img-projeto">
+          <div class="descricao">
+            <h3>Site interativo visual</h3>
+            <a href="https://artworks.pt" target="_blank">Acessar site</a>
+            <p>Site de galeria visual para artistas com sistema de filtros interativos.                
+            </p>
+            <p>Extremamente interativo e criativo. Um trabalho mais que admirável, mas muito focal.             
+            </p>            
+          </div>
+        </div>
+  
+        <!-- Projeto 3 -->
+        <div class="projeto">
+          <img src="/imagens/SiteDarkside.png" alt="Projeto 3" class="img-projeto">
+          <div class="descricao">
+            <h3>E-commerce livros</h3>
+            <a href="https://www.darksidebooks.com.br" target="_blank">Acessar site</a>
+            <p>Site de divulgação e compra de livros, especificamente de terror e horror.                
+            </p>
+            <p>O site da Darkside é um dos sites do ramo mais bem feito, estéticamente bonito e intreativo.
+            </p>   
+            <p>Os banners tem uma interação muito interessante, quando são somente de informações ou dicas eles expandem para o corpo do site,
+                mas sem te redirecionam totalmente para outra aba, deixando essa interação super rápida e sem carregamentos.
+            </p>            
+          </div>
+        </div>
+
+        <!-- Projeto 4 -->
+        <div class="projeto">
+          <img src="/imagens/SiteSega.png" alt="Projeto 2" class="img-projeto">
+          <div class="descricao">
+            <h3>Site de Publisher</h3>
+            <a href="https://www.sega.com" target="_blank">Acessar site</a>
+            <p>Site de uma publicadora de jogos digitais.                
+            </p>
+            <p>O site da Sega é um dos poucos realmente bem feitos e visualmente agradáveis comparado a outras publishers.
+            </p>
+            <p>Ele apresenta um design simplista, direto e altamente visual, sendo totalmente atrativo e bem organizado.             
+            </p> 
+            <p>Por outro lado, à primeira vista — especialmente para pessoas que não têm interesse nos produtos — pode parecer que há informação demais. 
+              No entanto, isso é totalmente proposital, pois faz parte da estratégia de propaganda e estímulo à venda.             
+            </p>           
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  
+  <!-- Seção Contato -->
+  <section id="contato">
+    <h2>Contato</h2>
+    <form id="formulario">
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+        <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+        <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Gaia Ramos. Todos os direitos reservados.</p>
+        <p>Glitch Lavanda - Arte: <a href="https://www.instagram.com/_mrhawk/" target="_blank"> Hawk</a>.</p>
+    </footer>
+
+    <!-- Modal para ampliar imagem -->
+    <div id="modal" class="modal">
+        <span class="fechar" onclick="fecharImagem()">&times;</span>
+        <img class="modal-conteudo" id="imagemModal">
+    </div>
+
+    <script src="javascript.js"></script>
+
+    <!-- Modal para zoom ao clicar -->
+    <div id="modalZoom" class="modalZoom">
+        <span class="fecharZoom">&times;</span>
+        
+        <div class="modal-conteudo-zoom">
+            <img class="zoom-conteudo" id="imagemZoom">
+            <div class="descricao-modal" id="descricaoZoom"></div>
+        </div>
+    </div>
+
+</body>
+</html>
